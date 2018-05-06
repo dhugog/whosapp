@@ -1,0 +1,36 @@
+#chatForm {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#chatForm input {
+	width: 100%;
+	line-height: 30px;
+	padding: 5px;
+	border-radius: 0;
+	border: none;
+	border-top: 1px solid gray;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+	box-sizing: border-box;
+}
+
+@media screen and (min-width:1280px) {
+	form#chatForm {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 1279px) and (min-width: 652px) {
+	form#chatForm {		
+		width: 50%;
+	}
+} 
+
+
+@media screen and (max-width: 651px) {
+	form#chatForm 		 {
+		width: 100%;
+	}
+}

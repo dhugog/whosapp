@@ -1,0 +1,77 @@
+#main-sec .msgDiv {
+	z-index: 999;
+	text-align: right;	
+	margin: 10px;	
+	box-sizing: border-box;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+#main-sec .msgDiv .mensagem {
+	word-break: break-all;
+	cursor: pointer;
+	display: inline-block;
+	background-color: #FFF;
+	border-radius: 5px;
+	font-family: Arial;
+	padding: 6px 8px;		
+	box-shadow: -1px 1px 1px rgba(0,0,0,.2);	
+	box-sizing: border-box;
+}
+
+#main-sec .msgDiv .mensagem sub {
+	font-size: 9pt;
+	margin-left: 5px;
+	color: #666;				
+}
+
+#main-sec .msgDiv .mensagem .usuario {				
+	font-size: 10pt;
+	color: #004d80;
+}
+
+#main-sec .msgDiv .mensagem .texto {
+	color: #222;
+	font-size: 12pt;
+}
+
+#main-sec .msgDiv .mensagem:hover {	
+	background-color: #EEE;				
+}
+
+#main-sec .msgDiv:first-child {
+	margin-top: 70px;
+}
+
+#main-sec .msgDiv:last-child {
+	margin-bottom: 51px;
+}
+
+#main-sec p#anchor {
+	margin-bottom: 51px;
+}
+
+#options {
+	cursor: pointer;
+	z-index: 1;
+	display: none;
+	position: absolute;								
+	padding: 5px;
+	background-color: rgba(0,0,0,.6);				
+	border-radius: 5px;			
+	box-sizing: border-box;	
+}
+
+#options:hover {
+	background-color: rgba(0,0,0,.7);
+}
+
+#options ul {
+	list-style: none;
+}
+
+#options ul li {
+	font-size: 11pt;
+	color: white;
+}

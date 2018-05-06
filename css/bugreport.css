@@ -1,0 +1,62 @@
+#secBugReport {
+	display: none;
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,.7);
+	width: 100%;
+	height: 100%;
+}
+
+#secBugReport form {
+	background-color: #FFF;
+	margin-top: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 0px 5px rgba(255,255,255,.3);
+}
+
+@media screen and (min-width:1280px) {
+	#secBugReport form {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 1279px) and (min-width: 645px) {
+	#secBugReport form {		
+		width: 50%;
+	}
+} 
+
+
+@media screen and (max-width: 644px) {
+	#secBugReport form {
+		width: 100%;	
+	}
+}
+
+#secBugReport form fieldset {
+	width: 70%;
+}
+
+#secBugReport form textarea {
+	display: block;
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	resize: none;
+}
+
+#secBugReport form input[type="submit"] {
+	line-height: 25px;
+}
+
+#secBugReport-more {
+	padding: 10px 0;
+	margin-top: 5px;
+	border-top: 1px solid #ABABAB;
+	border-bottom: 1px solid #ABABAB;
+}

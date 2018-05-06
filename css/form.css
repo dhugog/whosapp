@@ -1,0 +1,47 @@
+form.default-form {		
+	display: block;
+	width: 100%;
+	text-align: center;
+	background-color: #C7FFED;
+	padding: 20px 0;	
+	border-bottom: 1px solid #BABABA;
+	border-top: 1px solid #BABABA;
+}
+
+form.default-form fieldset {
+	width: 50%;
+	display: inline-block;
+	text-align: left;
+	border: none;
+	padding: 10px;	
+	box-sizing: border-box;
+}
+
+form.default-form fieldset p {
+	text-align: center;
+	font-weight: bold;
+	color: #222;	
+}
+
+form.default-form fieldset input {
+	display: block;
+	width: 100%;
+	padding: 3px;
+	margin: 5px 0;
+	border: none;
+	border: 1px solid #06B6D5;
+	box-sizing: border-box;
+}
+
+form.default-form fieldset input:focus:invalid {
+	border-color: #FF0000;
+	box-shadow: none;
+}
+
+form.default-form fieldset input[type="submit"] {
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	background-color: white;
+	border: 1px solid #ACACAC;
+}

@@ -1,0 +1,8 @@
+# HTID:2321079: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^whosapp\.com\.br$ [NC]
+RewriteRule ^(.*)$ http://www.whosapp.com.br/$1 [R=301,L]
+
+php_value display_errors 1
+php_value output_buffering on
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:2321079:

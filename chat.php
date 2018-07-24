@@ -5,7 +5,6 @@
 		require_once 'includes/config.inc.php';
 		require_once MYSQL;
 
-		
 		if(!isset($_SESSION['grupo'])) {
 			echo "<script>window.location.href = 'index.php';</script>";
 			exit;

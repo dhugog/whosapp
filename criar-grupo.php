@@ -42,10 +42,10 @@
 	elseif(isset($_POST['btnEntrarGrupo'])) {
 		$nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING);
 		if(isset($_POST['senha']) && $_POST['senha'] != "") {
-	                $senha = filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_STRING);	                        		
+			$senha = filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_STRING);	                        		
 		} else {
-                        $senha = '';
-                }
+			$senha = '';
+		}
 		
 		$stmtVerify = "SELECT * FROM grupos WHERE nome like '$nome' and senha like '$senha'";	
 		$queryVerify = mysqli_query($conn, $stmtVerify);
